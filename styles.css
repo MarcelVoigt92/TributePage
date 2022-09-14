@@ -81,7 +81,7 @@ li {
   letter-spacing: 0.15em;
   animation: typing 5.5s steps(100, end), blink-caret 0.75s infinite;
 }
-@media (max-width: 460px) {
+@media (max-width: 510px) {
   h1 {
     font-size: 1rem;
     line-height: 1.2;
