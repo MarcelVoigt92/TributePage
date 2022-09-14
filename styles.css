@@ -17,13 +17,6 @@ strong {
   font-size: 30px;
 }
 
-@media (max-width: 460px) {
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
-  }
-}
-
 h2 {
   font-size: 3.25rem;
 }
@@ -44,12 +37,6 @@ a:hover {
   background-color: #636363;
 }
 
-@media (max-width: 460px) {
-  #main {
-    margin: 0;
-  }
-}
-
 img {
   max-width: 100%;
   display: block;
@@ -66,12 +53,6 @@ img {
 
 #img-caption {
   margin: 15px 0 5px 0;
-}
-
-@media (max-width: 460px) {
-  #img-caption {
-    font-size: 1.4rem;
-  }
 }
 
 #headline {
@@ -99,6 +80,23 @@ li {
   margin: 0 auto;
   letter-spacing: 0.15em;
   animation: typing 5.5s steps(100, end), blink-caret 0.75s infinite;
+}
+@media (max-width: 460px) {
+  h1 {
+    font-size: 1rem;
+    line-height: 1.2;
+    width: 289px;
+  }
+  #main {
+    margin: 0;
+  }
+  #img-caption {
+    font-size: 1.4rem;
+  }
+  .typewriter {
+    animation-duration: 7s;
+    animation: typing 5.5s steps(600, end), blink-caret 0.75s infinite;
+  }
 }
 
 @keyframes typing {
